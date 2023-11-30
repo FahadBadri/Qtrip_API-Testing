@@ -31,11 +31,13 @@ dependencies {
     // https://mvnrepository.com/artifact/org.apache.poi/poi
     implementation group: 'org.apache.poi', name: 'poi', version: '5.2.2'
 
-    // https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
+   // https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
     implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '5.2.2'
     testImplementation 'io.rest-assured:rest-assured:5.2.0'
     testImplementation 'io.rest-assured:json-schema-validator:4.3.3'
     implementation 'org.json:json:20171018'
+    implementation 'com.google.code.gson:gson:2.8.2'
+    implementation group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
 
 
 
